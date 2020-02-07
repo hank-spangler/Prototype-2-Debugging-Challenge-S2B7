@@ -6,7 +6,7 @@ public class SpanManager : MonoBehaviour
 {
   public GameObject[] animalPrefabs;
 
-  [SerializeField] float spawnRangeX = 20;
+  [SerializeField] float spawnRangeX = 12.0f;
   [SerializeField] float spawnPosZ = 20;
   [SerializeField] float spawnDelay = 2;
   [SerializeField] float spawnInterval = 1.5f;
